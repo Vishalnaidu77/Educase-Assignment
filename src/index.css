@@ -55,6 +55,10 @@ main{
     cursor: pointer;
 }
 
+.btn:hover{
+  background-color: #a77cff;
+}
+
 .btns{
     display: flex;
     flex-direction: column;
@@ -78,6 +82,10 @@ main{
 .secondry{
     background-color: #6C25FF4B;
     color: #1D2226;
+}
+
+.secondry:hover{
+  background-color: #6e25ffa9;
 }
 
 .login-page{
@@ -135,6 +143,10 @@ main{
     width: 100%;
     background-color: #CBCBCB;
     color: #fff;
+}
+
+.login:hover{
+  background-color: #a0a0a0;
 }
 
 .radio-group p {
