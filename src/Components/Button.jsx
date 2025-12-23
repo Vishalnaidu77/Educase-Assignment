@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({ children, ...props}) => {
+const Button = ({ children, secondry, login, ...props}) => {
   return (
-    <button {...props} >
+    <button {...props} className={secondry ?  "btn secondry" : login ? "btn login" : "btn"}>
         {children}
     </button>
   )

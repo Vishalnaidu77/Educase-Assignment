@@ -17,8 +17,9 @@ body{
 main{
     height: 90vh;
     width: 400px;
-    background-color: #f3f3f3;
+    background-color: #fafafa;
     border: 1px solid #d3d3d3;
+    padding: 20px;
 }
 
 .welcome-page{
@@ -31,7 +32,95 @@ main{
 .bottom{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     width: 80%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.btn{
+    background-color: #6C25FF;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading{
+    color: #1D2226;
+    font-size: 2rem;
+}
+
+.para{
+    color: #3c4044;
+    font-size: 18px;
+}
+
+.secondry{
+    background-color: #6C25FF4B;
+    color: #1D2226;
+}
+
+.login-page{
+    display: flex;
+}
+
+.login-form{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box label {
+  position: absolute;
+  top: -8px;
+  left: 14px;
+  background: #f8f8f8;
+  padding: 0 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c2bd9; /* Purple label */
+}
+
+.input-box input {
+  width: 100%;
+  padding: 14px 12px;
+  background-color: #fafafa;
+  border: 1.5px solid #d1d1d1;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-box input::placeholder {
+  color: #b0b0b0;
+}
+
+.input-box input:focus {
+  border-color: #6c2bd9;
+}
+
+.login{
+    width: 100%;
+    background-color: #CBCBCB;
+    color: #fff;
 }

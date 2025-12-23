@@ -9,14 +9,18 @@ const Welcome = () => {
   return (
     <div className='welcome-page'>
       <div className="bottom">
-        <h1>Welcome to PopX</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <Button onClick={() => navigate("/register")}>
-          Create Account
-        </Button>
-        <Button onClick={() => navigate("/login")}> 
-          Already registered? Login
-        </Button>
+       <div id="text">
+         <h1 className='heading'>Welcome to PopX</h1>
+         <p className='para'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+       </div>
+        <div className="btns">
+          <Button onClick={() => navigate("/register")}>
+            Create Account
+          </Button>
+          <Button secondry onClick={() => navigate("/login")}> 
+            Already registered? Login
+          </Button>
+        </div>
       </div>
     </div>
   )
