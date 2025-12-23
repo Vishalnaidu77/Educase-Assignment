@@ -1,13 +1,14 @@
 import React from 'react'
 
-const Input = ({label, placeholder}) => {
+const Input = ({label, placeholder, required}) => {
   return (
     <div className='input-box'>
-      <label htmlFor="email">{label}</label>
+      <label htmlFor="email">{label} {required ? <span>*</span> : null}</label>
       <input
        id='email'
        type="email" 
-       placeholder={placeholder} 
+       placeholder={placeholder}
+       required={required}
       />
     </div>
   )
